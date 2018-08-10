@@ -1,0 +1,95 @@
+.img-product {
+    width: 50%;
+}
+
+.container-product {
+    text-align: -webkit-center;
+    margin: 15px 0 15px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display:block;
+}
+
+.sort-label {
+    padding-left: 15px;
+}
+
+.confirm-order {
+    margin-top: 15px;
+}
+
+.errors {
+    padding-left: 15px;
+}
+
+#tooltip {
+    z-index: 9999;
+    position: absolute;
+    display: none;
+    top:0px;
+    left:0px;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+.container-message{
+    position: relative;
+    margin-top: 10px;
+}
+
+.success-message{
+    z-index: 9999;
+    position: absolute;
+    display: none;
+    top:0px;
+    left:0px;
+    background-color: #00c64f;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border-radius: 5px;
+    left: 36%;
+}
+
+.order-success {
+    text-align: center;
+    color: green;
+    font-weight: 500;
+}
+
+label.required:after
+{
+    color: red;
+    content: " *";
+    font: bold italic 150% serif;
+}
+
+.discount {
+    position: absolute;
+    top: 76%;
+    font-size: 18px;
+    background-color: #5ec145;
+    padding: 2px 15px 2px 30px;
+    border-radius: 0px 10px 10px 0px;
+    color: #FFF;
+}
+
+.drop-list {
+    position: absolute;
+    display: none;
+}
+
+.drop-list > li > a {
+    font-size: 20px!important;
+}
+
+.sort-form {
+    padding-left: 15px;
+}
